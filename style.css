@@ -255,3 +255,199 @@ nav {
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
+
+
+
+
+/* ===========================
+   AI Assistant Section
+=========================== */
+
+.ai-assistant{
+
+    max-width:1100px;
+    margin:90px auto;
+    padding:60px;
+    background:#f8f9ff;
+    border-radius:18px;
+
+}
+
+.assistant-header{
+
+    text-align:center;
+    margin-bottom:50px;
+
+}
+
+.assistant-header h2{
+
+    font-size:38px;
+    color:#13294B;
+    margin-bottom:15px;
+
+}
+
+.assistant-header p{
+
+    color:#6b7280;
+    font-size:17px;
+    line-height:1.7;
+
+}
+
+/* Layout */
+
+.assistant-container{
+
+    display:flex;
+    gap:40px;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+
+/* Left */
+
+.assistant-left{
+
+    flex:1;
+    min-width:320px;
+
+}
+
+.chat-box{
+
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.message{
+
+    padding:14px 18px;
+    border-radius:12px;
+    margin-bottom:18px;
+    line-height:1.5;
+    font-size:15px;
+
+}
+
+.message.ai{
+
+    background:#eef3ff;
+    color:#13294B;
+
+}
+
+.message.user{
+
+    background:#2F5BFF;
+    color:white;
+    margin-left:60px;
+
+}
+
+/* Right */
+
+.assistant-right{
+
+    flex:1;
+    min-width:320px;
+
+}
+
+.assistant-right h3{
+
+    color:#13294B;
+    font-size:28px;
+    margin-bottom:20px;
+
+}
+
+.assistant-right ul{
+
+    list-style:none;
+    padding:0;
+    margin-bottom:30px;
+
+}
+
+.assistant-right li{
+
+    margin-bottom:14px;
+    color:#4b5563;
+    font-size:16px;
+
+}
+
+/* Input */
+
+.input-group{
+
+    display:flex;
+    gap:12px;
+
+}
+
+.input-group input{
+
+    flex:1;
+    padding:15px;
+    border:1px solid #d8dce8;
+    border-radius:10px;
+    font-size:15px;
+    outline:none;
+
+}
+
+.input-group input:focus{
+
+    border-color:#2F5BFF;
+
+}
+
+.input-group button{
+
+    background:#2F5BFF;
+    color:white;
+    border:none;
+    padding:15px 28px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    transition:.3s;
+
+}
+
+.input-group button:hover{
+
+    background:#2447d4;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .assistant-container{
+
+        flex-direction:column;
+
+    }
+
+    .input-group{
+
+        flex-direction:column;
+
+    }
+
+    .input-group button{
+
+        width:100%;
+
+    }
+
+}
